@@ -1,0 +1,34 @@
+$primaire: #9356DC;
+$secondaire: #FF79DA;
+$tertiaire: #99E2D0;
+$dark: #353535;
+$light: #fff;
+$background: #f6f6f6;
+$colored: #f5edff;
+$grey: #7e7e7e;
+$lightgreen: #99e2d0;
+$darkgreen: #008766;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+$roboto: 'Roboto', sans-serif;
+$shrikhand: 'Shrikhand', cursive;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: $roboto;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}

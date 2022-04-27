@@ -1,0 +1,40 @@
+@import "style";
+
+.header__accueil {
+    display: flex;
+    justify-content: center;
+    font-family: $shrikhand;
+    margin: 1.5rem;
+}
+
+.geolocalisation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    height: 7vh;
+    box-shadow: inset 0px 1px 4px 0px #8888887a;
+    
+    h4 {
+        font-weight: 400;
+        padding-left: 1rem;
+    }
+}
+
+.header__pages {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+}
+
+.header__pages-title {
+    font-family: $shrikhand;
+    font-size: 2em;
+    width: 100vw;
+    text-align: center;
+}
+
+.header__pages-arrow-left {
+    position: absolute;
+    left: 6%;
+}

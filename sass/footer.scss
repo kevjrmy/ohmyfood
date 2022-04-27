@@ -1,0 +1,36 @@
+@import "style";
+
+.footer {
+    background-color: $dark;
+    color: $light;
+}
+
+.footer__container {
+    padding: 1rem;
+}
+
+.footer__title {
+    font-family: $shrikhand;
+    font-size: 1.2em;
+}
+
+.footer__nav {
+    padding-top: 12px;
+    line-height: 2.5rem;
+}
+
+.footer__list-item {
+    font-weight: 300;
+}
+
+.footer__list-item {
+    .fas {
+        padding-right: 8px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer {
+        text-align: center;
+    }
+}
